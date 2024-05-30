@@ -1,0 +1,55 @@
+/* src/App.css */
+body {
+  background-color: lightblue; /* Change this to the desired shade of blue */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; /* Adjust the width as needed */
+  height: 4%; /* Adjust the height as needed */
+  background-color: lightblue; /* Change this to the desired shade of blue */
+  margin: 0 auto; 
+}
+
+.list-container {
+  width: 70%;
+  max-width: 500px;
+}
+
+.add-item {
+  margin-bottom: 1rem;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f4f4f4;
+}
+
+.list-group-item.checked {
+  text-decoration: line-through;
+}
+
+.list-group-item input[type="text"],
+.list-group-item input[type="date"],
+.list-group-item input[type="time"] {
+  margin-right: 1rem;
+}
+
+.list-group-item button {
+  margin-left: 0.5rem;
+}
+

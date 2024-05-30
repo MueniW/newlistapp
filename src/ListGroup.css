@@ -1,0 +1,56 @@
+/* src/ListGroup.css */
+.list-group {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  .list-group-item.checked {
+    text-decoration: line-through;
+    background-color: #f0f0f0;
+  }
+  
+  .list-group-item button {
+    margin-left: 10px;
+  }
+  
+  .add-item {
+    margin-bottom: 20px;
+  }
+  
+  .add-item input {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-item button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 5vh; /* Full viewport height */
+  }
